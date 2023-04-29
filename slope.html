@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2022.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE HTML&gt;</p>
+<p class="p1">&lt;html&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;meta charset='utf8'&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div id='ruffle'&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;script src='https://hero3000.github.io/ruffle-for-my-website/ruffle.js'&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;script&gt;</p>
+<p class="p1">var swfobject = {};</p>
+<p class="p2"><br></p>
+<p class="p1">swfobject.embedSWF = function(url, cont, width, height){</p>
+<p class="p1"><span class="Apple-converted-space">    </span>var ruffle = window.RufflePlayer.newest(),</p>
+<p class="p1"><span class="Apple-converted-space">        </span>player = Object.assign(document.getElementById(cont).appendChild(ruffle.createPlayer()), {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: width,</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: height,</p>
+<p class="p1"><span class="Apple-converted-space">            </span>style: 'width: ' + width + 'px; height: ' + height + 'px',</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>player.load({ url: url });</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">swfobject.embedSWF('https://hero3000.github.io/swf2/crashbandicoot.swf', 'ruffle', 805, 595);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
